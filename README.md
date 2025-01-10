@@ -11,3 +11,13 @@ For each meeting, check if it can reuse an existing room (i.e., if its start tim
 Output:
 
 The size of the heap at the end gives the number of rooms required.
+
+Complexity:
+Time Complexity: 
+𝑂(𝑛log𝑛)O(nlogn) for sorting + 𝑂(𝑛log𝑘)
+O(nlogk) for heap operations, where 𝑘
+k is the maximum number of concurrent meetings. Thus, overall 
+𝑂(𝑛log⁡𝑛)O(nlogn).
+Space Complexity: 
+𝑂(𝑘)O(k), where 𝑘
+k is the maximum number of meeting rooms required.
