@@ -1,6 +1,11 @@
 # Meeting-Rooms-II
 You are given an array of intervals representing meeting times where each interval is represented as [start, end]. Your task is to find the minimum number of meeting rooms required to accommodate all the meetings.
 Explanation:
+Explanation:
+Two meeting rooms are required:
+
+Room 1: [0, 30]
+Room 2: [5, 10] -> [15, 20]
 Sorting:
 
 Sort intervals by their start times to process meetings in chronological order.
